@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(236, 236, 236);
+    padding-left: 25px;
+    padding-top: 5px;
+    position: sticky;
+    top:0;
+    box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.247);
+}
+header{
+    padding: 10px 40px 10px;
+}
+#menu {
+    z-index: 2;
+}
+#menu-bar {
+    width: 45px;
+    height: 40px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+} 
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: #376086;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+#bar1 {
+    transform: translateY(-4px);
+}  
+#bar3 {
+    transform: translateY(4px);
+}
+.nav {
+    transition: 0.3s ease;
+    display: none;
+}
+.nav ul {
+    padding: 0 22px;
+} 
+.nav li {
+    list-style: none;
+    padding: 12px 0;
+}
+.nav li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}  
+.nav li a:hover {
+    color: black;
+}  
+.menu-bg, #menu {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+  
+.menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, #376086, #376086);
+    border-radius: 50%;
+    transition: 0.3s ease;
+}  
+.change {
+    display: block;
+} 
+.change .bar {
+    background-color: white;
+}
+.change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+}  
+.change #bar2 {
+    opacity: 0;
+}  
+.change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+}  
+.change-bg {
+    width: 520px;
+    height: 460px;
+    transform: translate(-60%,-30%);
+}
+main{
+    background-color: rgb(200, 200, 200);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 125px;
+    padding-bottom: 100%;
+}
+
+#logo>img{
+    padding-bottom: 100px;
+}
+#btal{
+    display: flex;
+}
+#cbdaut{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 230px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 89, 190, 0.911);
+    transition-duration: 0.4s;
+}
+#cbdaut:hover{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgba(0, 89, 190, 0.911);
+}
+#cbdaut>img{
+    padding-left: 10px;
+}
+#iai{
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    box-shadow: 1px 1px 1px 1px rgba(153, 17, 17, 0.527);
+    transition-duration: 0.4s;
+}
+#iai:hover{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgba(153, 17, 17, 0.527);
+}
+#iai>img{
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    text-align: center;
+    font-size: small;
+    padding: 20px;
+    color: white;
+    background-color: rgb(39, 39, 39);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#navb>a:hover{
+    color: rgb(53, 113, 241);
+}
+
