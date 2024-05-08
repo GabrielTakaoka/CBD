@@ -15,7 +15,7 @@ header{
     position: sticky;
     top:0;
     box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.247);
-    
+    width: 100%;
 }
 header{
     padding: 10px 40px 10px;
@@ -106,7 +106,8 @@ main{
     color: white;
     background-image: url(imagens/automated-robotic-systems-enhance-manufacturing-smart-warehouses.jpg);
     background-size: cover;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
 }
 #lgform>h1{
     text-align: center;
@@ -174,7 +175,7 @@ footer{
     font-size: small;
     padding: 20px;
     color: white;
-    background-color: rgba(39, 39, 39, 0.904);
+    background-color: rgb(39, 39, 39);
     position: fixed;
     bottom: 0;
     width: 100%;
