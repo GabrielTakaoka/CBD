@@ -117,8 +117,6 @@ main{
     background-color: rgba(49, 49, 49, 0.904);
     padding: 60px;
     border-radius: 30px;
-    width: 60vw;
-    align-items: center;
 }
 #user{
     margin-bottom: 10px;
@@ -171,14 +169,12 @@ a:hover{
     color: white;
 }
 footer{
+    align-items: center;
     text-align: center;
     font-size: small;
     padding: 20px;
     color: white;
     background-color: rgb(39, 39, 39);
-    position: fixed;
-    bottom: 0;
-    width: 100vw
 }
 .user>input{
     height: 30px;
