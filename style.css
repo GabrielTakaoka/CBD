@@ -114,6 +114,7 @@ main{
 #lgform{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: rgba(49, 49, 49, 0.904);
     padding: 60px;
     border-radius: 30px;
