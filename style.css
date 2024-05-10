@@ -116,7 +116,7 @@ main{
     flex-direction: column;
     justify-content: center;
     background-color: rgba(49, 49, 49, 0.904);
-    padding: 60px;
+    padding: 50px;
     border-radius: 30px;
 }
 #user{
